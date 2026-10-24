@@ -1,0 +1,14 @@
+# Contoh konfigurasi untuk backup-log.sh
+# Salin ke backup.conf dan sesuaikan, lalu source sebelum menjalankan script
+# jika ingin memakai nilai ini sebagai default (opsional).
+
+SOURCE_DIR="$HOME/sysguard-automation/input"
+BACKUP_DIR="$HOME/sysguard-automation/backup"
+RETENTION_DAYS=7
+
+# Konfigurasi P12 (SSH/SCP) — JANGAN isi password/token di sini.
+REMOTE_USER="uts-review"
+REMOTE_HOST="10.0.2.16"
+REMOTE_PATH="/home/uts-review/incoming"
+SSH_KEY_PATH="$HOME/.ssh/id_ed25519"
+SSH_PORT=2222

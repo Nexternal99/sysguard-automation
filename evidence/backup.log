@@ -1,0 +1,16 @@
+[2026-10-24 09:16:15] [INFO] Memulai backup dari '/tmp/tmp.CWlIgj30ZL/input' ke '/tmp/tmp.CWlIgj30ZL/backup/backup-20261024-091615'
+[2026-10-24 09:16:15] [INFO] Backup selesai. 2 berkas disalin ke /tmp/tmp.CWlIgj30ZL/backup/backup-20261024-091615
+[2026-10-24 09:16:15] [INFO] Rotasi selesai. 0 backup lama dihapus (retensi: 7 hari)
+[2026-10-24 09:16:15] [INFO] backup-log.sh selesai dengan sukses (exit=0)
+[2026-10-24 09:16:15] [ERROR] Direktori sumber tidak ditemukan atau tidak bisa dibaca: /tmp/tmp.CWlIgj30ZL/tidak-ada-folder-ini
+[2026-10-24 09:16:15] [ERROR] retention_days harus bilangan bulat positif, diterima: 'bukan-angka'
+[2026-10-24 02:24:53] [INFO] Memulai backup dari '/tmp/tmp.O1jP0fHD5e/input' ke '/tmp/tmp.O1jP0fHD5e/backup/backup-20261024-022453'
+[2026-10-24 02:24:53] [INFO] Backup selesai. 2 berkas disalin ke /tmp/tmp.O1jP0fHD5e/backup/backup-20261024-022453
+[2026-10-24 02:24:53] [INFO] Rotasi selesai. 0 backup lama dihapus (retensi: 7 hari)
+[2026-10-24 02:24:53] [INFO] backup-log.sh selesai dengan sukses (exit=0)
+[2026-10-24 02:24:53] [ERROR] Direktori sumber tidak ditemukan atau tidak bisa dibaca: /tmp/tmp.O1jP0fHD5e/tidak-ada-folder-ini
+[2026-10-24 02:24:53] [ERROR] retention_days harus bilangan bulat positif, diterima: 'bukan-angka'
+[2026-10-24 02:25:36] [INFO] Memulai backup dari '/home/leon/sysguard-automation/input' ke '/home/leon/sysguard-automation/backup/backup-20261024-022536'
+[2026-10-24 02:25:36] [INFO] Backup selesai. 2 berkas disalin ke /home/leon/sysguard-automation/backup/backup-20261024-022536
+[2026-10-24 02:25:36] [INFO] Rotasi selesai. 0 backup lama dihapus (retensi: 7 hari)
+[2026-10-24 02:25:36] [INFO] backup-log.sh selesai dengan sukses (exit=0)

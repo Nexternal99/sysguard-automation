@@ -1,0 +1,24 @@
+=== TEST: backup-sukses ===
+Command : /home/leon/sysguard-automation/src/backup-log.sh /tmp/tmp.O1jP0fHD5e/input /tmp/tmp.O1jP0fHD5e/backup 7
+Expected exit : 0
+Actual exit   : 0
+--- Output ---
+[2026-10-24 02:24:53] [INFO] Memulai backup dari '/tmp/tmp.O1jP0fHD5e/input' ke '/tmp/tmp.O1jP0fHD5e/backup/backup-20261024-022453'
+[2026-10-24 02:24:53] [INFO] Backup selesai. 2 berkas disalin ke /tmp/tmp.O1jP0fHD5e/backup/backup-20261024-022453
+[2026-10-24 02:24:53] [INFO] Rotasi selesai. 0 backup lama dihapus (retensi: 7 hari)
+[2026-10-24 02:24:53] [INFO] backup-log.sh selesai dengan sukses (exit=0)
+
+=== TEST: source-tidak-ada ===
+Command : /home/leon/sysguard-automation/src/backup-log.sh /tmp/tmp.O1jP0fHD5e/tidak-ada-folder-ini /tmp/tmp.O1jP0fHD5e/backup 7
+Expected exit : 2
+Actual exit   : 2
+--- Output ---
+[2026-10-24 02:24:53] [ERROR] Direktori sumber tidak ditemukan atau tidak bisa dibaca: /tmp/tmp.O1jP0fHD5e/tidak-ada-folder-ini
+
+=== TEST: argumen-tidak-valid ===
+Command : /home/leon/sysguard-automation/src/backup-log.sh /tmp/tmp.O1jP0fHD5e/input /tmp/tmp.O1jP0fHD5e/backup bukan-angka
+Expected exit : 1
+Actual exit   : 1
+--- Output ---
+[2026-10-24 02:24:53] [ERROR] retention_days harus bilangan bulat positif, diterima: 'bukan-angka'
+
