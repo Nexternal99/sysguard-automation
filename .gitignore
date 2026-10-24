@@ -1,0 +1,14 @@
+# Jangan pernah commit private key, credential, atau data pribadi
+*.pem
+id_rsa*
+id_ed25519*
+!*.pub
+.ssh/
+config/backup.conf
+*.password
+*.token
+
+# File sementara
+*.swp
+*.tmp
+/tmp/
