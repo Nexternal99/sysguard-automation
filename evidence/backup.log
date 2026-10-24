@@ -14,3 +14,11 @@
 [2026-10-24 02:25:36] [INFO] Backup selesai. 2 berkas disalin ke /home/leon/sysguard-automation/backup/backup-20261024-022536
 [2026-10-24 02:25:36] [INFO] Rotasi selesai. 0 backup lama dihapus (retensi: 7 hari)
 [2026-10-24 02:25:36] [INFO] backup-log.sh selesai dengan sukses (exit=0)
+[2026-10-24 02:34:30] [INFO] Mengirim '/home/leon/sysguard-automation/backup/backup-20261024-022536' ke leon@127.0.0.1:/home/leon/sysguard-automation/backup (port 2222) via SCP + SSH key
+[2026-10-24 02:34:31] [INFO] Transfer berhasil: backup-20261024-022536 -> leon@127.0.0.1:/home/leon/sysguard-automation/backup
+[2026-10-24 02:34:31] [INFO] Mengirim '/home/leon/sysguard-automation/backup/backup-20261024-022536' ke leon@127.0.0.1:/home/leon/sysguard-automation/backup (port 2222) via SCP + SSH key
+[2026-10-24 02:34:31] [INFO] Transfer berhasil: backup-20261024-022536 -> leon@127.0.0.1:/home/leon/sysguard-automation/backup
+[2026-10-24 02:34:38] [INFO] Mengirim '/home/leon/sysguard-automation/backup/backup-20261024-022536' ke leon@127.0.0.1:/home/leon/sysguard-automation/backup (port 2222) via SCP + SSH key
+leon@127.0.0.1: Permission denied (publickey,password).
+scp: Connection closed
+[2026-10-24 02:34:39] [ERROR] Transfer SCP gagal. Cek: host/port benar, key terdaftar di authorized_keys remote, permission direktori tujuan.

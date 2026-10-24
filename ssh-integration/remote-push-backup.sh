@@ -25,10 +25,10 @@ set -uo pipefail
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 
+LOG_FILE="${LOG_FILE:-$PROJECT_ROOT/evidence/ssh/remote-push.log}"
+
 # shellcheck source=../src/lib/logging.sh
 source "$PROJECT_ROOT/src/lib/logging.sh"
-
-LOG_FILE="${LOG_FILE:-$PROJECT_ROOT/evidence/ssh/remote-push.log}"
 
 usage() {
     cat <<EOF
